@@ -1,0 +1,22 @@
+Question 1) Write a blog on Difference between HTTP1.1 vs HTTP2 ?
+                           HTTP1.1                                                                    HTTP2
+Answer : *HTTP1 loads a single request for every TCP connection.                          *while HTTP2 avoids network delay by using multiplexing.
+         *It usest works on the textual format.                                           *It works on the binary protocol.
+         *It uses requests resource Inlining for use getting multiple pages.              *It use push frame by server that collects all multiple pages.
+         *It compresses data by itself.                                                   *It uses Hpack for data compression.
+         *There is head of line blocking that blocks all the requests behind              *It allows multiplexing so one TCP connection is required for multiple requests.
+         it until it doesn’t get its all resources.
+         -------------------------------------------------------------------------------------------------------------------------------------------------------------
+Question 2) Write a blog about objects and its internal representation in Javascript?
+Answer :
+         *In JavaScript, an object is a standalone entity, with properties and type.
+         *Here the objects are most important data type and forms the building blocks for modern JavaScript.
+         *The object() function returns an empty object. You cannot add new properties or methods to this object.
+         *Advantages of Objects :
+            -Objects Can Encapsulate Operations Along with Data.
+            -Objects Are Efficient.
+            -Objects Can Represent Part-Whole Relationships.
+        *objects may be defined as an unordered collection of related data, of primitive or reference types.
+        *object representation is the Visual object representation is the process of encoding object information in 
+         visual cortex for purposes of object identification, discrimination, evaluation, and memory storage. 
+         -------------------------------------------------------------------------------------------------------------------------------------------------------------
